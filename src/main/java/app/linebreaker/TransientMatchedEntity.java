@@ -1,4 +1,4 @@
-package linebroker;
+package app.linebreaker;
 
 import java.util.ArrayList;
 import java.util.List;

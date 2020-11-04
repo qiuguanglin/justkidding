@@ -1,4 +1,4 @@
-package linebroker;
+package app.linebreaker;
 
 public class InvalidLineException extends Throwable {
     private int errCode;

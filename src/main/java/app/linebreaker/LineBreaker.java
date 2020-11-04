@@ -1,11 +1,13 @@
-package linebroker;
+package app.linebreaker;
+
+import app.ErrorCode;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
-public class LineBreaker {
+public final class LineBreaker {
     public List<String> brokenLines(String line, String[] words) throws InvalidLineException {
         List<TransientMatchedEntity> rawResult = doBreak(line, words);
         if (rawResult.isEmpty())

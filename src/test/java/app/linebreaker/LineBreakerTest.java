@@ -1,5 +1,6 @@
-package linebroker;
+package app.linebreaker;
 
+import app.ErrorCode;
 import org.junit.Before;
 import org.junit.Test;
 
